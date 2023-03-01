@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to top,#006200, #000000);
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    position: absolute;
+    top: 75px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start
+}
+
+.img {
+    border: 4px solid #04c624;
+    border-radius: 50%;
+    padding: 2%;
+    width: 60vw;
+    height: 60vw;
+    max-width:350px;
+    max-height:350px;
+}
+
+.btn {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: large;
+    margin-top: 35px;
+    width: 25vh;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: solid #00d100;
+}
+.btn:hover{
+    width: 26vh;
+    height: 52px;
+}
